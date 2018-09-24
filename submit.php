@@ -2,9 +2,10 @@
 
 // Сообщение об ошибке:
 error_reporting(E_ALL^E_NOTICE);
+   
+   include "connect.php";
+   include "comment.class.php";
 
-include "connect.php";
-include "comment.class.php";
 
 /*
 /	Данный массив будет наполняться либо данными,
